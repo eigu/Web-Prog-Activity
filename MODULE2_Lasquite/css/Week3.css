@@ -1,0 +1,30 @@
+:root {
+  font-family: sans-serif;
+}
+
+table, th, td {
+    height: auto;
+    width: 1400px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nopadding {
+  border: 0%;
+  padding: 0%;
+  margin: 0%;
+} 
+
+td {
+  padding: 40px;
+  background-color: white;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
