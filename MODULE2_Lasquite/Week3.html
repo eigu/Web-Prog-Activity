@@ -6,9 +6,10 @@
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" type="image/x-icon" href="assets/icon.jpg">
             <link rel="stylesheet" href="css/Week3.css">
+            <script src="css/Week3.js"></script>
     </head>
 
-    <body bgcolor="#141414">
+    <body>
         <table class="parent-table">
             <tr>
                 <td>
@@ -24,7 +25,12 @@
                             <td>
                                 <p align="center"><a href="#aboutme">about me</a>. | <a href="#hobbies">my hobbies</a>. | <a href="#skills">my skills</a>.
                             </td>
-                        </tr> 
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <button id="togglemode" onclick="lightMode()">light mode!</button>
+                            </td>
+                        </tr>
                     </table>
                 </td>
             </tr>
@@ -36,18 +42,11 @@
                         <tr>
                             <td colspan="2">
                                 <h3 align="center">about me!</h3>
+                                <p class="content" align="center">despite my love for my games, i'm quite unexperienced when it comes to anything related to development. however, i love the designing aspect of games and i'm persevering to take a career that revolves around that. in addition to that, i also love ideation and being a platform for other people to voice out their own ideas. overall, i see myself as someone who is proficient at conceptualizing and someone who can be quite accomodating when it comes to achieving my own goals.
                             </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2" >
-                                <p class="content" align="center">despite my love for my games, i'm quite unexperienced when it comes to anything related to development. however, i love the designing aspect of games and i'm persevering to take a career that revolves around that. in addition to that, i also love ideation and being a platform for other people to voice out their own ideas. overall, i see myself as someone who proficient at conceptualizing and someone who can be quite accomodating when it comes to achieving my own goals.
-                            </td>
-                        </tr>
                         <tr>
                             <td>
                                 <h3 align="center">my course!</h3>
-                            </td>
-                            <td>
                                 <p class="content" align="center">i'm a junior at ciit college of arts and technology and i'm currently taking the bsemc course.
                             </td>
                         </tr>
@@ -60,31 +59,29 @@
                 <td>
                     <table class="child-table">
                         <tr>
-                            <td colspan="2">
-                                    <h3 align="center">my hobbies!</h3>
+                            <td colspan="3">
+                                <h3 align="center">my hobbies!</h3>
                             </td>
                         </tr>
-                            <td>
+                            <td style="border-right: none">
                                 <img src="assets/coffee.jpg">
                             </td>
                             <td>
-                                <p align="center">i love coffee.
+                                <img src="assets/shoes.jpg">
+                            </td>
+                            <td style="border-left: none">
+                                <img src="assets/walk.jpg">
                             </td>
                         <tr>
-                            <td>
-                                <img src="assets/shoes.jpg">
+                            <td style="border-right: none">
+                                <p align="center">i love coffee.
                             </td>
                             <td>
                                 <p align="center">i love shoes.
                             </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img class="bottom-left-corner" src="assets/walk.jpg">
-                            </td>
-                            <td>
+                            <td style="border-left: none">
                                 <p align="center">i love late night walks.
-                            </td>   
+                            </td>
                         </tr>
                     </table>
                 </td>
@@ -95,32 +92,30 @@
                 <td>
                     <table class="child-table">
                         <tr>
-                            <td id="skills" colspan="2">
+                            <td id="skills" colspan="3">
                                 <h3 align="center">my skills!</h3>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="border-right: none">
                                 <p align="center">tools
                             </td>
                             <td>
+                                <p align="center">hard skills
+                            </td>
+                            <td style="border-left: none">
+                                <p align="center">soft skills
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: none">
                                 <p align="center">unity, c++
                             </td>
-                        </tr>
-                        <tr>
                             <td>
-                                    <p align="center">hard skills
+                                <p align="center">secretariat work
                             </td>
-                            <td colspan="2">
-                                    <p align="center">secretariat work
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                    <p align="center">soft skills
-                            </td>
-                            <td colspan="2">
-                                    <p align="center">teamplay, communication
+                            <td style="border-left: none">
+                                <p align="center">teamplay, communication
                             </td>
                         </tr>
                     </table>
