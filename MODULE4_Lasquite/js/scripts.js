@@ -1,7 +1,7 @@
-function specialCharacter(n) {
-  var regex = /[~`!#$%\^&*+=\-\[\]\';,/{}|\\":<>\?]/g;
-  return regex.test(n);
-}
+  function specialCharacter(n) {
+    var regex = /[~`!#$%\^&*+=\-\[\]\';,/{}|\\":<>\?]/g;
+    return regex.test(n);
+  }
 
 function usernameCheck() {
   var n;
@@ -15,6 +15,6 @@ function usernameCheck() {
       alert("Username is valid.")
     }
   } else {
-    alert("Username must have 8 characters.")
+    alert("Username must have at least 8 characters.")
   }
 }
